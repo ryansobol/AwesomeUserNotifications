@@ -1,0 +1,32 @@
+{
+	"configurations" : [
+		{
+			"id" : "EAF0EF8C-8490-4C40-A215-F88F80879429",
+			"name" : "All Tests",
+			"options" : {
+
+			}
+		}
+	],
+	"defaultOptions" : {
+		"performanceAntipatternCheckerEnabled" : true
+	},
+	"testTargets" : [
+		{
+			"target" : {
+				"containerPath" : "container:Tests/Tests.xcodeproj",
+				"identifier" : "A00000000000000000000022",
+				"name" : "UnitTests"
+			}
+		},
+		{
+			"parallelizable" : false,
+			"target" : {
+				"containerPath" : "container:Tests/Tests.xcodeproj",
+				"identifier" : "A00000000000000000000021",
+				"name" : "IntegrationTests"
+			}
+		}
+	],
+	"version" : 1
+}
